@@ -1,4 +1,5 @@
 alias lla='ls -la'
+alias test='julia --project=. -e "using Pkg; Pkg.test()'
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
